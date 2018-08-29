@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My suite test]">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="My test(failed)">
+    <classes>
+      <class name="com.automation.training.tests.BookingProcessTest">
+        <methods>
+          <include name="firtScenarioTest"/>
+          <include name="BeforeSuite"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- com.automation.training.tests.BookingProcessTest -->
+    </classes>
+  </test> <!-- My test(failed) -->
+</suite> <!-- Failed suite [My suite test] -->

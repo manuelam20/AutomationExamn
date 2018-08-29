@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite test" duration-ms="1981" started-at="2018-08-29T19:05:25Z" finished-at="2018-08-29T19:05:27Z">
+    <groups>
+    </groups>
+    <test name="My test" duration-ms="1981" started-at="2018-08-29T19:05:25Z" finished-at="2018-08-29T19:05:27Z">
+      <class name="com.automation.training.tests.BookingProcessTest">
+        <test-method status="PASS" signature="BeforeSuite(java.lang.String)[pri:0, instance:com.automation.training.tests.BookingProcessTest@6a4f787b]" name="BeforeSuite" is-config="true" duration-ms="10884" started-at="2018-08-29T19:05:14Z" finished-at="2018-08-29T19:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="firtScenarioTest()[pri:0, instance:com.automation.training.tests.BookingProcessTest@6a4f787b]" name="firtScenarioTest" duration-ms="1962" started-at="2018-08-29T19:05:25Z" finished-at="2018-08-29T19:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firtScenarioTest -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:com.automation.training.tests.BookingProcessTest@6a4f787b]" name="AfterSuite" is-config="true" duration-ms="699" started-at="2018-08-29T19:05:27Z" finished-at="2018-08-29T19:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.automation.training.tests.BookingProcessTest -->
+    </test> <!-- My test -->
+  </suite> <!-- My suite test -->
+</testng-results>
