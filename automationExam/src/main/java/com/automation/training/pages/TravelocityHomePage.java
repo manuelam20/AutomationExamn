@@ -133,7 +133,7 @@ public class TravelocityHomePage extends BasePage
 		SetDepartingDate(departingDate);
 		SetReturningDate(returningDate);
 		SetNumberOfAdults(adults);
-	    ClickSearchButton();
+	    //ClickSearchButton();
 		
 		return new FlightSearchpage(getDriver());
 	}
