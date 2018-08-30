@@ -60,7 +60,8 @@ public class TravelocityHomePage extends BasePage
 	@FindBy(xpath =".//div[@class ='datepicker-cal']//button[@class='datepicker-paging datepicker-next btn-paging btn-secondary next']")
 	private WebElement nextButtonCalendar;
 	
-	@FindBy(xpath = ".//button[@class = 'btn-primary btn-action gcw-submit']//span")
+	
+	@FindBy(xpath="html/body/section/div/div/div/div[3]/div/div[1]/div/section[1]/form/div[8]/label/button") 
 	private WebElement searchButton;
 	
 	
@@ -133,7 +134,7 @@ public class TravelocityHomePage extends BasePage
 		SetDepartingDate(departingDate);
 		SetReturningDate(returningDate);
 		SetNumberOfAdults(adults);
-	    //ClickSearchButton();
+	    ClickSearchButton();
 		
 		return new FlightSearchpage(getDriver());
 	}
